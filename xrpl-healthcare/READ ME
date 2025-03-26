@@ -1,0 +1,45 @@
+Decentralized Healthcare Data Exchange
+A blockchain-based healthcare data exchange using XRPL and IPFS
+
+Overview
+This project is a decentralized healthcare data exchange built on the XRPL blockchain and IPFS (InterPlanetary File System). It allows secure storage, retrieval, and exchange of healthcare data while ensuring privacy, transparency, and security.
+
+Tech Stack
+Frontend: React.js
+
+Backend: Node.js, Express.js
+
+Blockchain: XRPL (XRP Ledger)
+
+Storage: IPFS
+
+Database: (If needed, mention MySQL, MongoDB, etc.)
+
+Project Structure
+xrpl-healthcare/
+xrpl-healthcare/
+│── backend/
+│   ├── server.js         # Main Express server
+│   ├── xrplWallet.js     # XRPL Wallet functions
+│   ├── ipfsStorage.js    # IPFS Storage functions
+│   ├── xrplToken.js      # XRPL Token functions
+│   ├── .env              # Environment variables (Secret Keys)
+│   ├── package.json      # Node.js package config
+│   ├── node_modules/     # Installed dependencies
+
+frontend/
+│── public/
+│   ├── index.html
+│── src/
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   ├── UploadRecord.js
+│   │   ├── ViewRecords.js
+│   ├── App.js
+│   ├── index.js
+│   ├── api.js
+│── package.json
+│── .env
+
+│── README.md                # Project documentation
+│── .gitignore               # Files to ignore in Git
